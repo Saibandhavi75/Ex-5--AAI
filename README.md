@@ -13,7 +13,7 @@ Step 4: Update the state estimate based on the measurement using kf.update().<BR
 Step 5: Store the estimated state in a list.<BR>
 Step 6: Plot the true and estimated positions.<BR>
 <H3>Program:</H3>
-```
+<code>
 #Kalman Filter Constructor
 
 class KalmanFilter:
@@ -68,7 +68,8 @@ plt.plot([s[0] for s in true_states],label='true')
 plt.plot([s[0] for s in est_states],label='estimate')
 plt.legend()
 plt.show()
-```
+</code>
+
 <H3>Output:</H3>
 ![image](https://github.com/Saibandhavi75/Ex-5--AAI/assets/94208895/713afcb2-fb47-48eb-b886-c36b78223203)
 
